@@ -26,6 +26,21 @@ Ext.define("ExtApp.view.sys.user.List", {
     }, {
         text: 'Name',
         dataIndex: 'Name'
+    }, {
+        text: 'Sex',
+        dataIndex: 'Sex'
+    }, {
+        text: 'Role Name',
+        dataIndex: 'RoleName'
+    }, {
+        text: 'Dept Name',
+        dataIndex: 'DeptName'
+    }, {
+        text: 'Layer',
+        dataIndex: 'Layer'
+    }, {
+        text: 'Memo',
+        dataIndex: 'Memo'
     }],
 
     tbar: [{

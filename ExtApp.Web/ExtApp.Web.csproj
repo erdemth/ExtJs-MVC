@@ -96,7 +96,7 @@
     <Content Include="app\model\sys\configSection.js" />
     <Content Include="app\model\sys\config.js" />
     <Content Include="app\model\sys\dept.js" />
-    <Content Include="app\model\sys\logSession.js" />
+    <Content Include="app\model\sys\logginSession.js" />
     <Content Include="app\model\sys\log.js" />
     <Content Include="app\model\sys\role.js" />
     <Content Include="app\plugin\tabCloseMenu.js" />
