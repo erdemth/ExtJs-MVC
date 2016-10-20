@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+    namespace="ExtApp.Model" assembly="ExtApp.Model">
+
+  <class name="Dept" table="AppDept">
+
+    <id name="ID">
+      <generator class="native" />
+    </id>
+
+    <many-to-one name="PDept" class="Dept" column="PID" lazy="proxy"></many-to-one>
+
+    <property name="Code"></property>
+
+    <property name="Name" />
+
+    <property name="Layer"></property>
+
+    <property name="Status"></property>
+
+    <property name="Memo"></property>
+
+  </class>
+
+</hibernate-mapping>

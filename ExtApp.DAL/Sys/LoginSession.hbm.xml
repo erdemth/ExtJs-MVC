@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+    namespace="ExtApp.Model" assembly="ExtApp.Model">
+
+  <class name="LoginSession" table="AppLoginSession">
+
+    <id name="Guid"></id>
+    
+    <many-to-one name="LoginUser" class="User" column="UserID" lazy="proxy"></many-to-one>
+
+    <property name="LoginTime" />
+
+    <property name="LoginIP" />
+
+    <property name="Expire" />
+
+  </class>
+
+</hibernate-mapping>

@@ -1,0 +1,5 @@
+C:\Users\erdem.tahtali\Desktop\sencha\example\ExtJs-Mvc-Framework-master\ExtApp.Model\bin\Release\ExtApp.Model.dll
+C:\Users\erdem.tahtali\Desktop\sencha\example\ExtJs-Mvc-Framework-master\ExtApp.Model\bin\Release\ExtApp.Model.pdb
+C:\Users\erdem.tahtali\Desktop\sencha\example\ExtJs-Mvc-Framework-master\ExtApp.Model\obj\Release\ExtApp.Model.dll
+C:\Users\erdem.tahtali\Desktop\sencha\example\ExtJs-Mvc-Framework-master\ExtApp.Model\obj\Release\ExtApp.Model.pdb
+C:\Users\erdem.tahtali\Desktop\sencha\example\ExtJs-Mvc-Framework-master\ExtApp.Model\obj\Release\ExtApp.Model.csprojResolveAssemblyReference.cache

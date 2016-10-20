@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+    namespace="ExtApp.Model" assembly="ExtApp.Model">
+
+  <class name="Dic" table="AppDic">
+
+    <id name="ID">
+      <generator class="native" />
+    </id>
+
+    <property name="Code" />
+
+    <property name="Type"></property>
+
+    <property name="Name"></property>
+
+    <property name="Status"></property>
+
+    <property name="Memo"></property>
+
+  </class>
+
+</hibernate-mapping>

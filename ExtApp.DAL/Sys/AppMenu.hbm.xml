@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+    namespace="ExtApp.Model" assembly="ExtApp.Model">
+
+  <class name="AppMenu" table="AppMenu">
+
+    <id name="ID">
+      <generator class="native" />
+    </id>
+
+    <property name="Name" not-null="true" />
+
+    <property name="Code" not-null="true" />
+
+    <property name="PID" not-null="true" />
+
+    <property name="UrlType" />
+
+    <property name="Url" />
+
+    <property name="IconType" />
+
+    <property name="Icon" />
+
+    <property name="Layer" />
+
+    <property name="Status" />
+
+    <property name="Memo"></property>
+
+  </class>
+
+</hibernate-mapping>

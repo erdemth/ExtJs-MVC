@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+    namespace="ExtApp.Model" assembly="ExtApp.Model">
+
+  <class name="ConfigSection" table="AppConfigSection">
+
+    <id name="ID">
+      <generator class="native" />
+    </id>
+
+    <many-to-one name="PSection" class="ConfigSection" column="SectionID" lazy="proxy"></many-to-one>
+
+    <property name="Name" />
+    
+    <property name="Layer"></property>
+    
+    <property name="Status"></property>
+
+    <property name="Memo"></property>
+
+  </class>
+
+</hibernate-mapping>
